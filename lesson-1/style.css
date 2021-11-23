@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.cart-button {
+  padding: 0.5% 1%;
+  background-color: #343a40;
+  color: rgba(255, 255, 255, 0.55);
+  margin-top: 2%;
+  border-radius: 10%;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.cart-button:hover {
+  background-color: white;
+  color: black;
+  -webkit-box-shadow: 0 0 30px 7px yellow;
+          box-shadow: 0 0 30px 7px yellow;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.goods-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2%;
+}
+
+.goods-list .goods-item {
+  background-color: white;
+  color: #1f2020;
+  border-radius: 10%;
+  padding: 0.5% 1%;
+  width: 20%;
+  text-align: center;
+  -webkit-box-shadow: 0 0 30px 10px yellow;
+          box-shadow: 0 0 30px 10px yellow;
+  -webkit-transition: -webkit-transform 800ms;
+  transition: -webkit-transform 800ms;
+  transition: transform 800ms;
+  transition: transform 800ms, -webkit-transform 800ms;
+}
+
+.goods-list .goods-item:hover {
+  background-color: yellow;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.menuNavBar {
+  background-color: yellow;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
